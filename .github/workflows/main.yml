@@ -16,7 +16,7 @@ jobs:
 
       - name: List the contents
         run: ls -lrt
-      - uses: kavin238/s3-sync-action@main  
+      - uses: kavin238/my-react-app@main  
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
